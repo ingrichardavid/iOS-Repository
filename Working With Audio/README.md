@@ -15,3 +15,5 @@ Example of using audio files.
 3.- Implementation of a progress bar.
 
 4.- A small player with design functions: play, pause, stop and volume up and down.
+![ScreenShot](https://github.com/ingrichardavid/iOS-Repository/blob/master/Working%20With%20Audio/sample_images/1.png)
+![ScreenShot](https://github.com/ingrichardavid/iOS-Repository/blob/master/Working%20With%20Audio/sample_images/2.png)
