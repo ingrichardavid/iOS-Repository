@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Working_With_Audio" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4y7-1S-Kv5">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <animations/>
+                                <items>
+                                    <barButtonItem systemItem="play" id="FKY-YU-9Ya">
+                                        <connections>
+                                            <action selector="play:" destination="BYZ-38-t0r" id="ymT-DA-ebj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="yT4-n6-AvR"/>
+                                    <barButtonItem systemItem="pause" id="8AX-bc-m19" userLabel="Pause">
+                                        <connections>
+                                            <action selector="pause:" destination="BYZ-38-t0r" id="k0v-Mq-Bfn"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="HTR-Ei-Qk7"/>
+                                    <barButtonItem systemItem="stop" id="i8F-P4-Xjn">
+                                        <connections>
+                                            <action selector="stop:" destination="BYZ-38-t0r" id="XGv-xF-TQX"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="CUq-s5-RhY">
+                                <rect key="frame" x="18" y="493" width="339" height="31"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="adjustVolume:" destination="BYZ-38-t0r" eventType="valueChanged" id="7F9-wY-6t2"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volume" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p16-Oe-YL2">
+                                <rect key="frame" x="153" y="531" width="70" height="25"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="Z9R-70-pYm">
+                                <rect key="frame" x="20" y="392" width="335" height="3"/>
+                                <animations/>
+                                <color key="progressTintColor" red="0.94901960780000005" green="0.76470588240000004" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="trackTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </progressView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CUq-s5-RhY" secondAttribute="trailing" constant="20" id="Dh8-WR-oYH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4y7-1S-Kv5" secondAttribute="bottom" id="FXN-qb-9Gu"/>
+                            <constraint firstAttribute="trailing" secondItem="Z9R-70-pYm" secondAttribute="trailing" constant="20" id="Gbu-ek-oph"/>
+                            <constraint firstItem="p16-Oe-YL2" firstAttribute="top" secondItem="CUq-s5-RhY" secondAttribute="bottom" constant="8" id="KYj-rL-or1"/>
+                            <constraint firstItem="p16-Oe-YL2" firstAttribute="top" secondItem="CUq-s5-RhY" secondAttribute="bottom" constant="8" id="Oz7-Pf-WkX"/>
+                            <constraint firstItem="4y7-1S-Kv5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ukb-jC-uF1"/>
+                            <constraint firstItem="CUq-s5-RhY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fgp-Vw-u2e"/>
+                            <constraint firstItem="CUq-s5-RhY" firstAttribute="top" secondItem="Z9R-70-pYm" secondAttribute="bottom" constant="99" id="gIU-Td-02P"/>
+                            <constraint firstAttribute="trailing" secondItem="4y7-1S-Kv5" secondAttribute="trailing" id="laQ-WR-hFF"/>
+                            <constraint firstItem="p16-Oe-YL2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lap-Va-kmw"/>
+                            <constraint firstItem="CUq-s5-RhY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="oFk-dU-Ij2"/>
+                            <constraint firstItem="4y7-1S-Kv5" firstAttribute="top" secondItem="p16-Oe-YL2" secondAttribute="bottom" constant="67" id="q6p-vh-NGv"/>
+                            <constraint firstItem="Z9R-70-pYm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="zXM-gk-FOi"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="fgp-Vw-u2e"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="btnItemPause" destination="8AX-bc-m19" id="bxQ-8x-mA2"/>
+                        <outlet property="btnItemPlay" destination="FKY-YU-9Ya" id="4h0-oG-7kV"/>
+                        <outlet property="btnItemStop" destination="i8F-P4-Xjn" id="Bzk-Hs-nWC"/>
+                        <outlet property="progressBar" destination="Z9R-70-pYm" id="sNx-9C-GJF"/>
+                        <outlet property="sdrVolume" destination="CUq-s5-RhY" id="CHI-1i-z5z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92.5" y="280.5"/>
+        </scene>
+    </scenes>
+</document>
