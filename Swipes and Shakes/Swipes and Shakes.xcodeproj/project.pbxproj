@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7F15DC1C49D18D002FF77E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7F15D21C49D18D002FF77E /* AppDelegate.swift */; };
+		6D7F15DD1C49D18D002FF77E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7F15D31C49D18D002FF77E /* ViewController.swift */; };
+		6D7F15DE1C49D18D002FF77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F15D71C49D18D002FF77E /* Assets.xcassets */; };
+		6D7F15DF1C49D18D002FF77E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F15D81C49D18D002FF77E /* Info.plist */; };
+		6D7F15E01C49D18D002FF77E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F15DA1C49D18D002FF77E /* LaunchScreen.storyboard */; };
+		6D7F15E11C49D18D002FF77E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F15DB1C49D18D002FF77E /* Main.storyboard */; };
+		6DD5B01B1C4D672A00F87971 /* bean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5B0131C4D672A00F87971 /* bean.mp3 */; };
+		6DD5B01C1C4D672A00F87971 /* belch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5B0141C4D672A00F87971 /* belch.mp3 */; };
+		6DD5B01D1C4D672A00F87971 /* giggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5B0151C4D672A00F87971 /* giggle.mp3 */; };
+		6DD5B01E1C4D672A00F87971 /* pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5B0161C4D672A00F87971 /* pew.mp3 */; };
+		6DD5B01F1C4D672A00F87971 /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5B0171C4D672A00F87971 /* pig.mp3 */; };
+		6DD5B0201C4D672A00F87971 /* snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5B0181C4D672A00F87971 /* snore.mp3 */; };
+		6DD5B0211C4D672A00F87971 /* static.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5B0191C4D672A00F87971 /* static.mp3 */; };
+		6DD5B0221C4D672A00F87971 /* uuu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5B01A1C4D672A00F87971 /* uuu.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D7F15BC1C49D115002FF77E /* Swipes and Shakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swipes and Shakes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7F15D21C49D18D002FF77E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D7F15D31C49D18D002FF77E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D7F15D71C49D18D002FF77E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D7F15D81C49D18D002FF77E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7F15DA1C49D18D002FF77E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D7F15DB1C49D18D002FF77E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6DD5B0131C4D672A00F87971 /* bean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bean.mp3; sourceTree = "<group>"; };
+		6DD5B0141C4D672A00F87971 /* belch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = belch.mp3; sourceTree = "<group>"; };
+		6DD5B0151C4D672A00F87971 /* giggle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giggle.mp3; sourceTree = "<group>"; };
+		6DD5B0161C4D672A00F87971 /* pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pew.mp3; sourceTree = "<group>"; };
+		6DD5B0171C4D672A00F87971 /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		6DD5B0181C4D672A00F87971 /* snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snore.mp3; sourceTree = "<group>"; };
+		6DD5B0191C4D672A00F87971 /* static.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = static.mp3; sourceTree = "<group>"; };
+		6DD5B01A1C4D672A00F87971 /* uuu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uuu.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7F15B91C49D115002FF77E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7F15B31C49D115002FF77E = {
+			isa = PBXGroup;
+			children = (
+				6D7F15BE1C49D115002FF77E /* Swipes and Shakes */,
+				6D7F15BD1C49D115002FF77E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D7F15BD1C49D115002FF77E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7F15BC1C49D115002FF77E /* Swipes and Shakes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7F15BE1C49D115002FF77E /* Swipes and Shakes */ = {
+			isa = PBXGroup;
+			children = (
+				6D7F15D11C49D18D002FF77E /* Controller */,
+				6D7F15D41C49D18D002FF77E /* Model */,
+				6D7F15D51C49D18D002FF77E /* Resources */,
+				6D7F15D91C49D18D002FF77E /* View */,
+			);
+			path = "Swipes and Shakes";
+			sourceTree = "<group>";
+		};
+		6D7F15D11C49D18D002FF77E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D7F15D21C49D18D002FF77E /* AppDelegate.swift */,
+				6D7F15D31C49D18D002FF77E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D7F15D41C49D18D002FF77E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D7F15D51C49D18D002FF77E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DD5B0121C4D672A00F87971 /* Sounds */,
+				6D7F15D61C49D18D002FF77E /* Images */,
+				6D7F15D81C49D18D002FF77E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6D7F15D61C49D18D002FF77E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6D7F15D71C49D18D002FF77E /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6D7F15D91C49D18D002FF77E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D7F15DA1C49D18D002FF77E /* LaunchScreen.storyboard */,
+				6D7F15DB1C49D18D002FF77E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DD5B0121C4D672A00F87971 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6DD5B0131C4D672A00F87971 /* bean.mp3 */,
+				6DD5B0141C4D672A00F87971 /* belch.mp3 */,
+				6DD5B0151C4D672A00F87971 /* giggle.mp3 */,
+				6DD5B0161C4D672A00F87971 /* pew.mp3 */,
+				6DD5B0171C4D672A00F87971 /* pig.mp3 */,
+				6DD5B0181C4D672A00F87971 /* snore.mp3 */,
+				6DD5B0191C4D672A00F87971 /* static.mp3 */,
+				6DD5B01A1C4D672A00F87971 /* uuu.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7F15BB1C49D115002FF77E /* Swipes and Shakes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7F15CE1C49D115002FF77E /* Build configuration list for PBXNativeTarget "Swipes and Shakes" */;
+			buildPhases = (
+				6D7F15B81C49D115002FF77E /* Sources */,
+				6D7F15B91C49D115002FF77E /* Frameworks */,
+				6D7F15BA1C49D115002FF77E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swipes and Shakes";
+			productName = "Swipes and Shakes";
+			productReference = 6D7F15BC1C49D115002FF77E /* Swipes and Shakes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7F15B41C49D115002FF77E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ing. Richard J. David G.";
+				TargetAttributes = {
+					6D7F15BB1C49D115002FF77E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 6D7F15B71C49D115002FF77E /* Build configuration list for PBXProject "Swipes and Shakes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D7F15B31C49D115002FF77E;
+			productRefGroup = 6D7F15BD1C49D115002FF77E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7F15BB1C49D115002FF77E /* Swipes and Shakes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D7F15BA1C49D115002FF77E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD5B0221C4D672A00F87971 /* uuu.mp3 in Resources */,
+				6D7F15E01C49D18D002FF77E /* LaunchScreen.storyboard in Resources */,
+				6DD5B01E1C4D672A00F87971 /* pew.mp3 in Resources */,
+				6DD5B0201C4D672A00F87971 /* snore.mp3 in Resources */,
+				6DD5B01B1C4D672A00F87971 /* bean.mp3 in Resources */,
+				6DD5B01F1C4D672A00F87971 /* pig.mp3 in Resources */,
+				6DD5B0211C4D672A00F87971 /* static.mp3 in Resources */,
+				6DD5B01D1C4D672A00F87971 /* giggle.mp3 in Resources */,
+				6D7F15DF1C49D18D002FF77E /* Info.plist in Resources */,
+				6DD5B01C1C4D672A00F87971 /* belch.mp3 in Resources */,
+				6D7F15DE1C49D18D002FF77E /* Assets.xcassets in Resources */,
+				6D7F15E11C49D18D002FF77E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D7F15B81C49D115002FF77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7F15DD1C49D18D002FF77E /* ViewController.swift in Sources */,
+				6D7F15DC1C49D18D002FF77E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6D7F15CC1C49D115002FF77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D7F15CD1C49D115002FF77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D7F15CF1C49D115002FF77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Swipes and Shakes/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ing-richardavid.Swipes-and-Shakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D7F15D01C49D115002FF77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Swipes and Shakes/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ing-richardavid.Swipes-and-Shakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7F15B71C49D115002FF77E /* Build configuration list for PBXProject "Swipes and Shakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7F15CC1C49D115002FF77E /* Debug */,
+				6D7F15CD1C49D115002FF77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7F15CE1C49D115002FF77E /* Build configuration list for PBXNativeTarget "Swipes and Shakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7F15CF1C49D115002FF77E /* Debug */,
+				6D7F15D01C49D115002FF77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D7F15B41C49D115002FF77E /* Project object */;
+}
