@@ -10,7 +10,7 @@ Example on how to use the Core Data.
 
 1.- Using constraints.
 
-2.- Basic functions: insert, modify, delete, and find data..
+2.- Basic functions: insert, modify, delete, and find data.
 
 3.- Using the keyboard.
 
