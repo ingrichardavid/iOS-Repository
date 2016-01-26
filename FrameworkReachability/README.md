@@ -10,8 +10,9 @@ Example on using the Framework Reachability. To determine whether a device has I
 
 1.- Using constraints.
 
-2.- Using the Framework Reachability (https://developer.apple.com/library/ios/samplecode/Reachability/Introduction/Intro.html).
+2.- Using the Framework Reachability. https://developer.apple.com/library/ios/samplecode/Reachability/Introduction/Intro.html
 
 3.- Switching between ViewController from AppDelegate.
+
 ![ScreenShot](https://github.com/ingrichardavid/iOS-Repository/blob/master/FrameworkReachability/sample_images/1.png)
 ![ScreenShot](https://github.com/ingrichardavid/iOS-Repository/blob/master/FrameworkReachability/sample_images/2.png)
