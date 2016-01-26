@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JSONWebExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Protocolo de Internet:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mb-SN-bue">
+                                <rect key="frame" x="5" y="8" width="365" height="19"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Código de la Ciudad:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezj-KZ-AVG">
+                                <rect key="frame" x="5" y="35" width="365" height="19"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre de la Ciudad:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qai-JC-9QR">
+                                <rect key="frame" x="5" y="62" width="365" height="19"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zona Horaria:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alh-wr-9M0">
+                                <rect key="frame" x="5" y="197" width="365" height="19"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Código de la Región:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uca-XT-t0A">
+                                <rect key="frame" x="5" y="89" width="365" height="19"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre de la Región:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnp-oU-aQ2">
+                                <rect key="frame" x="5" y="116" width="365" height="19"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ciudad:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKw-NJ-sNj">
+                                <rect key="frame" x="5" y="143" width="365" height="19"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Código Postal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zi5-Pe-oWc">
+                                <rect key="frame" x="5" y="170" width="365" height="19"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitud:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KNo-1y-Iq6">
+                                <rect key="frame" x="5" y="224" width="365" height="19"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitud:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alE-XZ-anD">
+                                <rect key="frame" x="5" y="251" width="365" height="19"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKQ-n8-Rjx">
+                                <rect key="frame" x="144" y="295" width="87" height="35"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="CONSULT"/>
+                                <connections>
+                                    <action selector="btnConsult:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2V2-2a-jCY"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h18-OD-0Vw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="qdT-Xe-fW8">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <animations/>
+                                <color key="color" red="0.0" green="1" blue="0.0096537812079999993" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Uca-XT-t0A" firstAttribute="top" secondItem="qai-JC-9QR" secondAttribute="bottom" constant="8" id="03u-GK-hEk"/>
+                            <constraint firstItem="0Mb-SN-bue" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="1Od-XW-jGL"/>
+                            <constraint firstItem="hnp-oU-aQ2" firstAttribute="top" secondItem="Uca-XT-t0A" secondAttribute="bottom" constant="8" id="36G-Fl-8iX"/>
+                            <constraint firstAttribute="trailing" secondItem="alE-XZ-anD" secondAttribute="trailing" constant="5" id="5QU-aQ-yGX"/>
+                            <constraint firstAttribute="trailing" secondItem="zi5-Pe-oWc" secondAttribute="trailing" constant="5" id="6Oc-VF-7k9"/>
+                            <constraint firstItem="PKw-NJ-sNj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="9Vd-ue-e2c"/>
+                            <constraint firstItem="zi5-Pe-oWc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="Ctu-Ui-C1T"/>
+                            <constraint firstAttribute="trailing" secondItem="PKw-NJ-sNj" secondAttribute="trailing" constant="5" id="DEL-y5-wVM"/>
+                            <constraint firstItem="qdT-Xe-fW8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FxW-PF-vpg"/>
+                            <constraint firstAttribute="trailing" secondItem="alh-wr-9M0" secondAttribute="trailing" constant="5" id="Hb5-xN-5Gt"/>
+                            <constraint firstItem="qai-JC-9QR" firstAttribute="top" secondItem="ezj-KZ-AVG" secondAttribute="bottom" constant="8" id="KBY-PI-fgM"/>
+                            <constraint firstAttribute="trailing" secondItem="KNo-1y-Iq6" secondAttribute="trailing" constant="5" id="Ktv-dB-qZ1"/>
+                            <constraint firstItem="ezj-KZ-AVG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="N4u-EG-E9x"/>
+                            <constraint firstItem="0Mb-SN-bue" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="PDz-UK-ZgS"/>
+                            <constraint firstItem="hnp-oU-aQ2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="Qnp-hj-Qvt"/>
+                            <constraint firstAttribute="trailing" secondItem="0Mb-SN-bue" secondAttribute="trailing" constant="5" id="UAS-Qw-btR"/>
+                            <constraint firstItem="KNo-1y-Iq6" firstAttribute="top" secondItem="alh-wr-9M0" secondAttribute="bottom" constant="8" id="Uph-Jz-hCV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h18-OD-0Vw" secondAttribute="bottom" id="VDR-ld-Tie"/>
+                            <constraint firstItem="h18-OD-0Vw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YYe-zp-7x8"/>
+                            <constraint firstItem="ezj-KZ-AVG" firstAttribute="top" secondItem="0Mb-SN-bue" secondAttribute="bottom" constant="8" id="YkS-Yx-nWE"/>
+                            <constraint firstItem="alE-XZ-anD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="ack-qP-KUX"/>
+                            <constraint firstItem="IKQ-n8-Rjx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="anT-0E-84d"/>
+                            <constraint firstItem="qai-JC-9QR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="bbC-HZ-w4W"/>
+                            <constraint firstItem="IKQ-n8-Rjx" firstAttribute="top" secondItem="alE-XZ-anD" secondAttribute="bottom" constant="25" id="cfX-2h-8FF"/>
+                            <constraint firstItem="qdT-Xe-fW8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dQq-NO-Djt"/>
+                            <constraint firstAttribute="trailing" secondItem="h18-OD-0Vw" secondAttribute="trailing" id="gqp-pU-U1T"/>
+                            <constraint firstItem="PKw-NJ-sNj" firstAttribute="top" secondItem="hnp-oU-aQ2" secondAttribute="bottom" constant="8" id="h2L-xC-eEt"/>
+                            <constraint firstItem="alh-wr-9M0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="h7R-yN-7Oq"/>
+                            <constraint firstAttribute="trailing" secondItem="hnp-oU-aQ2" secondAttribute="trailing" constant="5" id="hvl-sn-PoS"/>
+                            <constraint firstAttribute="trailing" secondItem="ezj-KZ-AVG" secondAttribute="trailing" constant="5" id="koJ-cg-RGO"/>
+                            <constraint firstItem="alE-XZ-anD" firstAttribute="top" secondItem="KNo-1y-Iq6" secondAttribute="bottom" constant="8" id="ktR-RA-nsz"/>
+                            <constraint firstItem="KNo-1y-Iq6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="qyc-3U-S9M"/>
+                            <constraint firstAttribute="trailing" secondItem="Uca-XT-t0A" secondAttribute="trailing" constant="5" id="sWf-8x-wYK"/>
+                            <constraint firstItem="h18-OD-0Vw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="vyS-3C-X8Y"/>
+                            <constraint firstAttribute="trailing" secondItem="qai-JC-9QR" secondAttribute="trailing" constant="5" id="wMp-aH-QRo"/>
+                            <constraint firstItem="alh-wr-9M0" firstAttribute="top" secondItem="zi5-Pe-oWc" secondAttribute="bottom" constant="8" id="xWG-r4-EdA"/>
+                            <constraint firstItem="Uca-XT-t0A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="yeO-5Q-gq8"/>
+                            <constraint firstItem="zi5-Pe-oWc" firstAttribute="top" secondItem="PKw-NJ-sNj" secondAttribute="bottom" constant="8" id="zTX-UX-znf"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="qdT-Xe-fW8" id="fFb-hr-TqI"/>
+                        <outlet property="lblCity" destination="PKw-NJ-sNj" id="eal-Y0-gYg"/>
+                        <outlet property="lblCountryCode" destination="ezj-KZ-AVG" id="Njt-bf-YOh"/>
+                        <outlet property="lblCountryName" destination="qai-JC-9QR" id="EOo-xi-MrV"/>
+                        <outlet property="lblIp" destination="0Mb-SN-bue" id="P33-hJ-EW4"/>
+                        <outlet property="lblLatitude" destination="KNo-1y-Iq6" id="Q8q-gb-RCp"/>
+                        <outlet property="lblLongitude" destination="alE-XZ-anD" id="CH7-zi-ccq"/>
+                        <outlet property="lblRegionCode" destination="Uca-XT-t0A" id="oM5-L5-h0p"/>
+                        <outlet property="lblRegionName" destination="hnp-oU-aQ2" id="Rd2-og-fbx"/>
+                        <outlet property="lblTimeZone" destination="alh-wr-9M0" id="742-WV-GI6"/>
+                        <outlet property="lblZipCode" destination="zi5-Pe-oWc" id="2bm-0A-8SR"/>
+                        <outlet property="viewBlock" destination="h18-OD-0Vw" id="FW3-Ww-ocI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="254.5" y="312.5"/>
+        </scene>
+    </scenes>
+</document>
