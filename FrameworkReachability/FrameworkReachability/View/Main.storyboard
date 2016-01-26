@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="OnLineViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="FrameworkReachability" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are online." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5e-yH-GWD">
+                                <rect key="frame" x="20" y="382" width="335" height="20"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wifi" translatesAutoresizingMaskIntoConstraints="NO" id="DCR-5V-eDN">
+                                <rect key="frame" x="67" y="112" width="240" height="240"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="Qwx-J7-tl7"/>
+                                    <constraint firstAttribute="width" constant="240" id="YS6-w8-7Vn"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DCR-5V-eDN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FWO-zi-c8s"/>
+                            <constraint firstAttribute="trailing" secondItem="J5e-yH-GWD" secondAttribute="trailing" constant="20" id="TXA-gf-FhA"/>
+                            <constraint firstItem="J5e-yH-GWD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="e0Q-tD-p4y"/>
+                            <constraint firstItem="DCR-5V-eDN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="112" id="pNT-w8-ol3"/>
+                            <constraint firstItem="J5e-yH-GWD" firstAttribute="top" secondItem="DCR-5V-eDN" secondAttribute="bottom" constant="30" id="wXj-TP-TVx"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-82.5" y="247.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BHQ-5Y-L1G">
+            <objects>
+                <viewController storyboardIdentifier="OffLineViewController" id="MNA-7s-oQ4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j8c-tw-BdQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="AhL-d6-HnP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pNu-iC-EiP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wifi" translatesAutoresizingMaskIntoConstraints="NO" id="OFD-PW-yhy">
+                                <rect key="frame" x="67" y="112" width="240" height="240"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="4wt-CN-B5C"/>
+                                    <constraint firstAttribute="height" constant="240" id="7CN-5I-g9o"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5r-hj-skk">
+                                <rect key="frame" x="67" y="112" width="240" height="240"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="Rh5-el-KKW"/>
+                                    <constraint firstAttribute="width" constant="240" id="ubZ-k0-S1e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="300"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are offline. Check your internet connection and try again." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dct-K9-5xI">
+                                <rect key="frame" x="20" y="382" width="335" height="40"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dct-K9-5xI" firstAttribute="leading" secondItem="pNu-iC-EiP" secondAttribute="leading" constant="20" id="9Qf-Hg-kki"/>
+                            <constraint firstItem="k5r-hj-skk" firstAttribute="centerX" secondItem="pNu-iC-EiP" secondAttribute="centerX" id="E4k-bI-lrf"/>
+                            <constraint firstItem="OFD-PW-yhy" firstAttribute="top" secondItem="j8c-tw-BdQ" secondAttribute="bottom" constant="112" id="ON9-De-kwn"/>
+                            <constraint firstAttribute="trailing" secondItem="dct-K9-5xI" secondAttribute="trailing" constant="20" id="OgU-xQ-fm9"/>
+                            <constraint firstItem="OFD-PW-yhy" firstAttribute="centerX" secondItem="pNu-iC-EiP" secondAttribute="centerX" id="Qx9-Ao-jhs"/>
+                            <constraint firstItem="dct-K9-5xI" firstAttribute="top" secondItem="k5r-hj-skk" secondAttribute="bottom" constant="30" id="UuW-c8-U5f"/>
+                            <constraint firstItem="k5r-hj-skk" firstAttribute="top" secondItem="j8c-tw-BdQ" secondAttribute="bottom" constant="112" id="oX3-6W-g8n"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZoI-Lk-Ebl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="356.5" y="247.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="wifi" width="270" height="216"/>
+    </resources>
+</document>
