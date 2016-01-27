@@ -17,3 +17,4 @@ Example on how to design a blog reader.
 4.- For more information visit: https://developers.google.com/blogger/docs/3.0/using
 ![ScreenShot](https://github.com/ingrichardavid/iOS-Repository/blob/master/BlogReader/sample_images/1.png)
 ![ScreenShot](https://github.com/ingrichardavid/iOS-Repository/blob/master/BlogReader/sample_images/2.png)
+![ScreenShot](https://github.com/ingrichardavid/iOS-Repository/blob/master/BlogReader/sample_images/3.png)
