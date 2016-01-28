@@ -8,7 +8,7 @@
 # Description.
 Example on how to make a CRUD using Parse as Back-end technology.
 
-For more information about Paris, visit: http://parse.com/
+For more information about, visit: http://parse.com/
 
 ![ScreenShot](https://github.com/ingrichardavid/iOS-Repository/blob/master/ParseStarterProjectSwift/sample_images/1.png)
 ![ScreenShot](https://github.com/ingrichardavid/iOS-Repository/blob/master/ParseStarterProjectSwift/sample_images/2.png)
