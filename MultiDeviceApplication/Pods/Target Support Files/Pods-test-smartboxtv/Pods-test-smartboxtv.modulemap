@@ -1,0 +1,6 @@
+framework module Pods_test_smartboxtv {
+  umbrella header "Pods-test-smartboxtv-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,74 @@
+//
+//  MessagesUIAlertController.swift
+//  TuTaxiUseriOS
+//
+//  Created by Ing. Richard José David González on 25/04/16.
+//  Copyright © 2016 GIGA IT. All rights reserved.
+//
+
+/**
+    Class that contains alert messages.
+*/
+struct MessagesUIAlertController {
+    
+    //MARK: - Functions.
+    
+    /**
+        Function to display basic information message.
+        - parameter title (String): Message title.
+        - parameter message (String): Message to display.
+        - returns: Returns an object UIAlertController.
+    */
+    static func informationMessage(title: String, message: String) -> UIAlertController {
+    
+        let alertController: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        let alert: UIAlertAction = UIAlertAction(title: "Aceptar", style: UIAlertActionStyle.Cancel, handler: nil)
+        alertController.addAction(alert)
+        
+        return alertController
+        
+    }
+    
+    /**
+        Function to display confirmation message for logout.
+        - parameter title (String): Message title.
+        - parameter message (String): Message to display.
+        - parameter viewController (UIViewController): UIViewController that invokes the message.
+        - returns: Returns an object UIAlertController.
+    */
+    static func confirmation(title: String, message: String, viewController: UIViewController) -> UIAlertController {
+        
+        let alertController: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        
+        let accept: UIAlertAction = UIAlertAction(title: "Aceptar", style: UIAlertActionStyle.Default) { (actions) -> Void in
+            
+            guard viewController.classForCoder != ControllerMenuInSession().classForCoder else {
+                
+                let controllerMenuInSession: ControllerMenuInSession = viewController as! ControllerMenuInSession
+                
+                guard !controllerMenuInSession.deleteSession else {
+                    
+                    ServiceCDAuthenticationData.logOut()
+                    controllerMenuInSession.deleteSession = false
+                    controllerMenuInSession.performSegueWithIdentifier("segueMenuInSessionStart", sender: nil)
+                    
+                    return
+                
+                }
+                
+                return
+                
+            }
+            
+        }
+        
+        let cancel: UIAlertAction = UIAlertAction(title: "Cancelar", style: UIAlertActionStyle.Cancel, handler: nil)
+        
+        alertController.addAction(accept)
+        alertController.addAction(cancel)
+        
+        return alertController
+        
+    }
+    
+}
