@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Challenge OSA
+
+  Created by Richard José David González on 07-04-17.
+  Copyright © 2017 OSA. All rights reserved.
+*/
+
+"MESSAGE_LABEL" = "Results!";
+"RESPONSE_ERROR" = "Try Again!";
+"RESPONSE_NOT_FOUND" = "Data no found!";

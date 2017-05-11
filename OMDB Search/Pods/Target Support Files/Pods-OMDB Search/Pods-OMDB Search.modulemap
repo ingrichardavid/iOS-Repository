@@ -1,0 +1,6 @@
+framework module Pods_OMDB_Search {
+  umbrella header "Pods-OMDB Search-umbrella.h"
+
+  export *
+  module * { export * }
+}

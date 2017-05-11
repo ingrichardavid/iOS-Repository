@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D4D164D50563C20D4AC2298 /* Pods_OMDB_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FBD0994509B396FDAC66EB /* Pods_OMDB_Search.framework */; };
+		7D2796011EC4A7FD00907581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2796001EC4A7FD00907581 /* Assets.xcassets */; };
+		7D2796081EC4A80E00907581 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7D2796041EC4A80E00907581 /* en.lproj */; };
+		7D2796091EC4A80E00907581 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2796051EC4A80E00907581 /* Functions.swift */; };
+		7D27960C1EC4A82000907581 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D27960B1EC4A82000907581 /* Info.plist */; };
+		7D2796131EC4A84A00907581 /* ExtensionDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27960E1EC4A84A00907581 /* ExtensionDouble.swift */; };
+		7D2796141EC4A84A00907581 /* ExtensionInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27960F1EC4A84A00907581 /* ExtensionInt.swift */; };
+		7D2796151EC4A84A00907581 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2796101EC4A84A00907581 /* ExtensionString.swift */; };
+		7D2796161EC4A84A00907581 /* ExtensionUIActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2796111EC4A84A00907581 /* ExtensionUIActivityIndicator.swift */; };
+		7D2796171EC4A84A00907581 /* ExtensionUISearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2796121EC4A84A00907581 /* ExtensionUISearchController.swift */; };
+		7D27961C1EC4A85300907581 /* EnumFormatResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2796181EC4A85300907581 /* EnumFormatResponse.swift */; };
+		7D27961D1EC4A85300907581 /* EnumSegues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2796191EC4A85300907581 /* EnumSegues.swift */; };
+		7D27961E1EC4A85300907581 /* EnumServiceParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27961A1EC4A85300907581 /* EnumServiceParameter.swift */; };
+		7D27961F1EC4A85300907581 /* EnumServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27961B1EC4A85300907581 /* EnumServiceResponse.swift */; };
+		7D2796211EC4A86E00907581 /* EntityMixMovieSerie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2796201EC4A86E00907581 /* EntityMixMovieSerie.swift */; };
+		7D2796231EC4A87300907581 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2796221EC4A87300907581 /* APIServices.swift */; };
+		7D2796251EC4A88E00907581 /* VCMixMovieSerie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2796241EC4A88E00907581 /* VCMixMovieSerie.swift */; };
+		7D2796271EC4A89300907581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2796261EC4A89300907581 /* AppDelegate.swift */; };
+		7D27962A1EC4A8A100907581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2796281EC4A8A100907581 /* LaunchScreen.storyboard */; };
+		7D27962B1EC4A8A100907581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2796291EC4A8A100907581 /* Main.storyboard */; };
+		7D64400A1EC4AA600060C9A9 /* VCMixDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6440091EC4AA600060C9A9 /* VCMixDetail.swift */; };
+		7D64400C1EC4AC4C0060C9A9 /* EnumAPIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64400B1EC4AC4C0060C9A9 /* EnumAPIConstants.swift */; };
+		7D64400E1EC4AF130060C9A9 /* EnumLocalizableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D64400D1EC4AF130060C9A9 /* EnumLocalizableString.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D2795DF1EC4A38400907581 /* OMDB Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OMDB Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2796001EC4A7FD00907581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D2796041EC4A80E00907581 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		7D2796051EC4A80E00907581 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		7D27960B1EC4A82000907581 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D27960D1EC4A84100907581 /* OMDB Search-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OMDB Search-Bridging-Header.h"; sourceTree = "<group>"; };
+		7D27960E1EC4A84A00907581 /* ExtensionDouble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDouble.swift; sourceTree = "<group>"; };
+		7D27960F1EC4A84A00907581 /* ExtensionInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionInt.swift; sourceTree = "<group>"; };
+		7D2796101EC4A84A00907581 /* ExtensionString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		7D2796111EC4A84A00907581 /* ExtensionUIActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIActivityIndicator.swift; sourceTree = "<group>"; };
+		7D2796121EC4A84A00907581 /* ExtensionUISearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUISearchController.swift; sourceTree = "<group>"; };
+		7D2796181EC4A85300907581 /* EnumFormatResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumFormatResponse.swift; sourceTree = "<group>"; };
+		7D2796191EC4A85300907581 /* EnumSegues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumSegues.swift; sourceTree = "<group>"; };
+		7D27961A1EC4A85300907581 /* EnumServiceParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumServiceParameter.swift; sourceTree = "<group>"; };
+		7D27961B1EC4A85300907581 /* EnumServiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumServiceResponse.swift; sourceTree = "<group>"; };
+		7D2796201EC4A86E00907581 /* EntityMixMovieSerie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityMixMovieSerie.swift; sourceTree = "<group>"; };
+		7D2796221EC4A87300907581 /* APIServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		7D2796241EC4A88E00907581 /* VCMixMovieSerie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMixMovieSerie.swift; sourceTree = "<group>"; };
+		7D2796261EC4A89300907581 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D2796281EC4A8A100907581 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D2796291EC4A8A100907581 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7D6440091EC4AA600060C9A9 /* VCMixDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMixDetail.swift; sourceTree = "<group>"; };
+		7D64400B1EC4AC4C0060C9A9 /* EnumAPIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumAPIConstants.swift; sourceTree = "<group>"; };
+		7D64400D1EC4AF130060C9A9 /* EnumLocalizableString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumLocalizableString.swift; sourceTree = "<group>"; };
+		9568BE1742F2F477406496D6 /* Pods-OMDB Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB Search.release.xcconfig"; path = "Pods/Target Support Files/Pods-OMDB Search/Pods-OMDB Search.release.xcconfig"; sourceTree = "<group>"; };
+		A0C140C3E75A9508A926AE5B /* Pods-OMDB Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDB Search.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OMDB Search/Pods-OMDB Search.debug.xcconfig"; sourceTree = "<group>"; };
+		A3FBD0994509B396FDAC66EB /* Pods_OMDB_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDB_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D2795DC1EC4A38400907581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4D164D50563C20D4AC2298 /* Pods_OMDB_Search.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BD6C2A09AAF88F66D83D187 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0C140C3E75A9508A926AE5B /* Pods-OMDB Search.debug.xcconfig */,
+				9568BE1742F2F477406496D6 /* Pods-OMDB Search.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D2795D61EC4A38400907581 = {
+			isa = PBXGroup;
+			children = (
+				7D2795E11EC4A38400907581 /* OMDB Search */,
+				7D2795E01EC4A38400907581 /* Products */,
+				2BD6C2A09AAF88F66D83D187 /* Pods */,
+				8D5C618B2193BDE842FCF906 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D2795E01EC4A38400907581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D2795DF1EC4A38400907581 /* OMDB Search.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D2795E11EC4A38400907581 /* OMDB Search */ = {
+			isa = PBXGroup;
+			children = (
+				7D2795F71EC4A55F00907581 /* Resources */,
+				7D2795F61EC4A55A00907581 /* Model */,
+				7D2795F51EC4A55500907581 /* Controller */,
+				7D2795F41EC4A54B00907581 /* View */,
+			);
+			path = "OMDB Search";
+			sourceTree = "<group>";
+		};
+		7D2795F41EC4A54B00907581 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D2796281EC4A8A100907581 /* LaunchScreen.storyboard */,
+				7D2796291EC4A8A100907581 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D2795F51EC4A55500907581 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D2795FF1EC4A5B000907581 /* VCMixMovieSerie */,
+				7D2795FE1EC4A5A900907581 /* Core */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7D2795F61EC4A55A00907581 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D2795FD1EC4A59E00907581 /* Entities */,
+				7D2795FC1EC4A59700907581 /* Services */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D2795F71EC4A55F00907581 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D2796001EC4A7FD00907581 /* Assets.xcassets */,
+				7D2795FB1EC4A58C00907581 /* Utils */,
+				7D2795FA1EC4A58600907581 /* Settings */,
+				7D2795F91EC4A57F00907581 /* Extensions */,
+				7D2795F81EC4A57900907581 /* Enums */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7D2795F81EC4A57900907581 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				7D64400D1EC4AF130060C9A9 /* EnumLocalizableString.swift */,
+				7D64400B1EC4AC4C0060C9A9 /* EnumAPIConstants.swift */,
+				7D2796181EC4A85300907581 /* EnumFormatResponse.swift */,
+				7D2796191EC4A85300907581 /* EnumSegues.swift */,
+				7D27961A1EC4A85300907581 /* EnumServiceParameter.swift */,
+				7D27961B1EC4A85300907581 /* EnumServiceResponse.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		7D2795F91EC4A57F00907581 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7D27960E1EC4A84A00907581 /* ExtensionDouble.swift */,
+				7D27960F1EC4A84A00907581 /* ExtensionInt.swift */,
+				7D2796101EC4A84A00907581 /* ExtensionString.swift */,
+				7D2796111EC4A84A00907581 /* ExtensionUIActivityIndicator.swift */,
+				7D2796121EC4A84A00907581 /* ExtensionUISearchController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7D2795FA1EC4A58600907581 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7D27960D1EC4A84100907581 /* OMDB Search-Bridging-Header.h */,
+				7D27960B1EC4A82000907581 /* Info.plist */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7D2795FB1EC4A58C00907581 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D2796041EC4A80E00907581 /* en.lproj */,
+				7D2796051EC4A80E00907581 /* Functions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7D2795FC1EC4A59700907581 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7D2796221EC4A87300907581 /* APIServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7D2795FD1EC4A59E00907581 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7D2796201EC4A86E00907581 /* EntityMixMovieSerie.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		7D2795FE1EC4A5A900907581 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7D2796261EC4A89300907581 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7D2795FF1EC4A5B000907581 /* VCMixMovieSerie */ = {
+			isa = PBXGroup;
+			children = (
+				7D6440091EC4AA600060C9A9 /* VCMixDetail.swift */,
+				7D2796241EC4A88E00907581 /* VCMixMovieSerie.swift */,
+			);
+			path = VCMixMovieSerie;
+			sourceTree = "<group>";
+		};
+		8D5C618B2193BDE842FCF906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3FBD0994509B396FDAC66EB /* Pods_OMDB_Search.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D2795DE1EC4A38400907581 /* OMDB Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2795F11EC4A38400907581 /* Build configuration list for PBXNativeTarget "OMDB Search" */;
+			buildPhases = (
+				BC5B138710A3024020A7E5C2 /* [CP] Check Pods Manifest.lock */,
+				7D2795DB1EC4A38400907581 /* Sources */,
+				7D2795DC1EC4A38400907581 /* Frameworks */,
+				7D2795DD1EC4A38400907581 /* Resources */,
+				701D237EF2C9C761789274D7 /* [CP] Embed Pods Frameworks */,
+				EE503A2F12EF4AA8702D89A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OMDB Search";
+			productName = "OMDB Search";
+			productReference = 7D2795DF1EC4A38400907581 /* OMDB Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D2795D71EC4A38400907581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ing. Richard David";
+				TargetAttributes = {
+					7D2795DE1EC4A38400907581 = {
+						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D2795DA1EC4A38400907581 /* Build configuration list for PBXProject "OMDB Search" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D2795D61EC4A38400907581;
+			productRefGroup = 7D2795E01EC4A38400907581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D2795DE1EC4A38400907581 /* OMDB Search */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D2795DD1EC4A38400907581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2796081EC4A80E00907581 /* en.lproj in Resources */,
+				7D27962B1EC4A8A100907581 /* Main.storyboard in Resources */,
+				7D27962A1EC4A8A100907581 /* LaunchScreen.storyboard in Resources */,
+				7D2796011EC4A7FD00907581 /* Assets.xcassets in Resources */,
+				7D27960C1EC4A82000907581 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		701D237EF2C9C761789274D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OMDB Search/Pods-OMDB Search-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5B138710A3024020A7E5C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE503A2F12EF4AA8702D89A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OMDB Search/Pods-OMDB Search-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D2795DB1EC4A38400907581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D27961D1EC4A85300907581 /* EnumSegues.swift in Sources */,
+				7D2796131EC4A84A00907581 /* ExtensionDouble.swift in Sources */,
+				7D27961C1EC4A85300907581 /* EnumFormatResponse.swift in Sources */,
+				7D64400A1EC4AA600060C9A9 /* VCMixDetail.swift in Sources */,
+				7D27961E1EC4A85300907581 /* EnumServiceParameter.swift in Sources */,
+				7D2796151EC4A84A00907581 /* ExtensionString.swift in Sources */,
+				7D2796171EC4A84A00907581 /* ExtensionUISearchController.swift in Sources */,
+				7D2796271EC4A89300907581 /* AppDelegate.swift in Sources */,
+				7D2796161EC4A84A00907581 /* ExtensionUIActivityIndicator.swift in Sources */,
+				7D2796251EC4A88E00907581 /* VCMixMovieSerie.swift in Sources */,
+				7D27961F1EC4A85300907581 /* EnumServiceResponse.swift in Sources */,
+				7D2796211EC4A86E00907581 /* EntityMixMovieSerie.swift in Sources */,
+				7D64400E1EC4AF130060C9A9 /* EnumLocalizableString.swift in Sources */,
+				7D2796141EC4A84A00907581 /* ExtensionInt.swift in Sources */,
+				7D2796231EC4A87300907581 /* APIServices.swift in Sources */,
+				7D2796091EC4A80E00907581 /* Functions.swift in Sources */,
+				7D64400C1EC4AC4C0060C9A9 /* EnumAPIConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D2795EF1EC4A38400907581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D2795F01EC4A38400907581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D2795F21EC4A38400907581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C140C3E75A9508A926AE5B /* Pods-OMDB Search.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/OMDB Search/Resources/Settings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OMDB.OMDB-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OMDB Search/Resources/Settings/OMDB Search-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7D2795F31EC4A38400907581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9568BE1742F2F477406496D6 /* Pods-OMDB Search.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/OMDB Search/Resources/Settings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OMDB.OMDB-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OMDB Search/Resources/Settings/OMDB Search-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D2795DA1EC4A38400907581 /* Build configuration list for PBXProject "OMDB Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2795EF1EC4A38400907581 /* Debug */,
+				7D2795F01EC4A38400907581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D2795F11EC4A38400907581 /* Build configuration list for PBXNativeTarget "OMDB Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2795F21EC4A38400907581 /* Debug */,
+				7D2795F31EC4A38400907581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D2795D71EC4A38400907581 /* Project object */;
+}
