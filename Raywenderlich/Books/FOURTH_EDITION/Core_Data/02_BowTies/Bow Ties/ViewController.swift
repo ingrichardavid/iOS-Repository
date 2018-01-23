@@ -137,10 +137,9 @@ extension ViewController {
     let dataArray = NSArray(contentsOfFile: path!)!
     
     for dict in dataArray {
-      let entity = NSEntityDescription.entity(
-        forEntityName: "Bowtie",
-        in: self.managedContext)!
-    
+      let entity = NSEntityDescription.entity(forEntityName: "Bowtie",
+                                              in: self.managedContext)!
+      
       let bowtie = Bowtie(entity: entity,
                           insertInto: self.managedContext)
       
