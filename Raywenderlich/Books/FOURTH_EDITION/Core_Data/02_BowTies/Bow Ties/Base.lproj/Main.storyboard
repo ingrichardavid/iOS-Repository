@@ -103,9 +103,17 @@
                                     <constraint firstAttribute="height" constant="44" id="Atg-ZI-yyl"/>
                                 </constraints>
                                 <items>
-                                    <barButtonItem title="Wear" id="foy-7a-Sod"/>
+                                    <barButtonItem title="Wear" id="foy-7a-Sod">
+                                        <connections>
+                                            <action selector="wear:" destination="Q8Y-YH-u9O" id="tdp-kf-Wb5"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="WPJ-1L-lT4"/>
-                                    <barButtonItem title="Rate" id="aue-gI-thi"/>
+                                    <barButtonItem title="Rate" id="aue-gI-thi">
+                                        <connections>
+                                            <action selector="rate:" destination="Q8Y-YH-u9O" id="Kql-M6-ZZp"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -127,6 +135,7 @@
                         <outlet property="lastWornLabel" destination="8VP-OO-tbM" id="fFd-JL-MAm"/>
                         <outlet property="nameLabel" destination="3Ca-cH-ZL4" id="QTl-BU-LDU"/>
                         <outlet property="ratingLabel" destination="JSl-jp-q4z" id="nNS-Gg-p7l"/>
+                        <outlet property="segmentedControl" destination="5G5-wI-A3w" id="sjI-LD-8nl"/>
                         <outlet property="timesWornLabel" destination="qwf-Ti-TyR" id="dAl-Qz-6s2"/>
                     </connections>
                 </viewController>

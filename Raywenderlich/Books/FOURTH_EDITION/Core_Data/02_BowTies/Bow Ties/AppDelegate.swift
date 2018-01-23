@@ -29,6 +29,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    
+    guard let viewController = window?.rootViewController as? ViewController else {
+      return true
+    }
+    viewController.managedContext = self.persistentContainer.viewContext
+    
+//    let bowtie = NSEntityDescription.insertNewObject(forEntityName: "Bowtie", into: self.persistentContainer.viewContext) as! Bowtie
+//    bowtie.name = "My bow tie"
+//    bowtie.lastWorn = NSDate()
+//    self.saveContext()
+//
+//    let request = NSFetchRequest<Bowtie>(entityName: "Bowtie")
+//
+//    if
+//      let ties = try? self.persistentContainer.viewContext.fetch(request),
+//      let testName = ties.first?.name,
+//      let testLastWorn = ties.first?.lastWorn {
+//      print("Name: \(testName), Worn: \(testLastWorn)")
+//    } else {
+//      print("Test failed.")
+//    }
+    
     return true
   }
 
